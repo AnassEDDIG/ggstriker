@@ -1,5 +1,6 @@
 import { AiFillTikTok } from "react-icons/ai";
 import { FaDiscord, FaFacebookSquare, FaGamepad } from "react-icons/fa";
+import { FaChalkboardUser } from "react-icons/fa6";
 import { GiWingedSword } from "react-icons/gi";
 import { LiaGamepadSolid } from "react-icons/lia";
 import { LuBadgeInfo } from "react-icons/lu";
@@ -76,6 +77,10 @@ export const Footer = () => {
 
       {/* Bottom bar */}
       <div className="mt-10 border-t border-(--mainColor)/30 pt-4 text-xs text-center">
+        <span className="text-(--mainColor) text-xs flex items-center justify-center gap-1">
+          {" "}
+          <FaChalkboardUser /> Made with love by Anass Eddig.
+        </span>
         © {new Date().getFullYear()} GGStriker. All rights reserved.
       </div>
     </footer>
