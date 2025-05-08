@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+/* global rules */
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bgColor: #13131c;
+  --bgLighter: #1e1e2e;
+  --mainColor: #00b3a6;
+  --secondaryColor: #009C82;
+  --lightGray: #a6accd;
+  --accentColor: #ffbb33; /* A warm, fiery orange that contrasts well with the teal */
+  --complementaryColor: #5ec496; /* A soothing and balanced green with a bit of freshness */
+  --highlightColor: #ffbb33; /* Bright yellow to break the rhythm and grab attention without overpowering */
+}
+
+header,
+.mainFont {
+  /* background-color: var(--bgColor); */
+  font-family: "Orbitron";
+}
+
+body {
+  color: white;
+  font-family: "Exo 2";
+  background-color: var(--bgColor);
+}

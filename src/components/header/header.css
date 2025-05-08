@@ -1,0 +1,39 @@
+.neon-glow {
+  color: var(--mainColor);
+  animation: pulseGlow 2s infinite ease-in-out;
+  filter: drop-shadow(0 0 5px var(--mainColor))
+    drop-shadow(0 0 10px var(--mainColor));
+}
+
+@keyframes pulseGlow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 4px var(--mainColor))
+      drop-shadow(0 0 10px var(--mainColor));
+  }
+  50% {
+    filter: drop-shadow(0 0 2px var(--mainColor))
+      drop-shadow(0 0 5px var(--mainColor));
+  }
+}
+
+@media (max-width: 768px) {
+  .active {
+    background: var(--bgLighter);
+    border-radius: 6px;
+    color: white;
+  }
+}
+@media (min-width: 768px) {
+  .active {
+    color: transparent;
+    transition: 0.2s all linear;
+    transform: scale(1.3);
+    background-image: linear-gradient(
+      90deg,
+      var(--mainColor),
+      var(--accentColor)
+    );
+    background-clip: text;
+  }
+}
