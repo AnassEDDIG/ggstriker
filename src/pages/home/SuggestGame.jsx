@@ -30,7 +30,7 @@ export const SuggestGame = () => {
           <Button>
             <a
               className="text-sm flex items-center gap-1"
-              href="mailto:ggstriker.games@email.com"
+              href="mailto:ggstriker.games@gmail.com"
             >
               Open Inbox
               <HiOutlineMailOpen />
