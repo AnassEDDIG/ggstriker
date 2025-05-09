@@ -24,15 +24,15 @@ export const DownloadSection = ({ links, locked }) => {
           <div>
             <Helmet>
               <script type="text/javascript">
-                {`var JcgMU_HHU_ugEKzc={"it":4489636,"key":"12fe4"};`}
+                {` var smfeT_Koh_OyNBsc={"it":4489636,"key":"12fe4"};`}
               </script>
-              <script src="https://d2v7l2267atlz5.cloudfront.net/6108dbf.js"></script>
+              <script src="https://d2v7l2267atlz5.cloudfront.net/496028c.js"></script>
             </Helmet>
             <button
-              className="flex items-center justify-center gap-3 bg-(--accentColor) text-(--bgColor) md:text-lg
+              className="flex items-center justify-center gap-3 bg-(--accentColor) text-(--bgColor)
               font-semibold py-3 px-2 md:px-5 rounded-xl shadow-md hover:scale-105 transition-all 
-              duration-300 text-sm cursor-pointer"
-              onClick={() => window._WT()}
+              duration-300 text-sm cursor-pointer mx-auto"
+              onClick={() => window._nS()}
             >
               <IoMdUnlock />
               Complete 1 step to unlock download

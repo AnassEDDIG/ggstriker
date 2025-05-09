@@ -47,12 +47,12 @@ export const Hero = () => {
       {/* gamepads Images */}
       <div className="hidden xl:block">
         <img
-          className="w-52 xl:w-72 absolute right-6 top-32"
+          className="w-52 2xl:w-72 absolute right-6 top-32"
           src={gamepad1}
           alt="gamepad1"
         />
         <img
-          className="w-52 xl:w-72 absolute left-6 top-32"
+          className="w-52 2xl:w-72 absolute left-6 top-32"
           src={gamepad2}
           alt="gamepad2"
         />
