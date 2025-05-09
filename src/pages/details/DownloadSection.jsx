@@ -23,7 +23,6 @@ export const DownloadSection = ({ links, locked }) => {
         {locked ? (
           <div>
             <a
-              href="https://singingfiles.com/show.php?l=0&u=2389460&id=67673"
               className="flex items-center justify-center gap-3 bg-(--accentColor) text-(--bgColor)
               font-semibold py-3 px-2 md:px-5 rounded-xl shadow-md hover:scale-105 transition-all 
               duration-300 text-sm cursor-pointer mx-auto"
