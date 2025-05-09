@@ -44,9 +44,7 @@ export const AllGames = () => {
     return filtered;
   }, [selectedCategory, sortDownloads, sortRating]);
   const maskName = (name) =>
-    name.length <= 2
-      ? "*".repeat(name.length)
-      : `${name[0]}****${name.at(-1)}`;
+    name.length <= 2 ? "*".repeat(name.length) : `${name[0]}****${name.at(-1)}`;
 
   useEffect(() => {
     AOS.init({ duration: 600, once: true });
@@ -59,7 +57,7 @@ export const AllGames = () => {
       <div className="text-center mb-12">
         <h2
           className="text-2xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r
-         from-(--mainColor) via-(--secondaryColor) to-(--complementaryColor)
+         from-(--mainColor) via-(--complementaryColor) to-(--accentColor)
           bg-clip-text text-transparent mainFont flex items-center justify-center gap-2"
         >
           <MdOutlineCategory className="text-(--secondaryColor)" />
@@ -119,7 +117,7 @@ export const AllGames = () => {
               className="will-change-transform"
             >
               <Link
-                to={`/details/game-${game.id}`}
+                to={`/details/game-${game.id}/state-0`}
                 className="h-full hover:scale-105 transition-transform duration-300 ease-out border-(--mainColor) 
                  bg-(--bgLighter) rounded-xl shadow-md cursor-pointer flex flex-col"
               >
@@ -158,7 +156,7 @@ export const AllGames = () => {
                       <FaStar className="text-yellow-400" /> {game.rating}
                     </span>
                     <Link
-                      to={`/details/game-${game.id}`}
+                      to={`/details/game-${game.id}/state-0`}
                       className="flex items-center justify-center gap-1 bg-gradient-to-r 
               from-(--mainColor) to-(--secondaryColor) text-white px-4 py-2
               rounded-md cursor-pointer"

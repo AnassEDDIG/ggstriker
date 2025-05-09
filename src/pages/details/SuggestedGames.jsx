@@ -6,13 +6,13 @@ import { GiPerspectiveDiceSixFacesRandom } from "react-icons/gi";
 import { Link } from "react-router-dom";
 
 // Shuffle utility
-
 export const SuggestedGames = ({ id }) => {
   const shuffleArray = (array) => {
     return [...array]
       .sort(() => 0.5 - Math.random())
       .filter((ele) => ele.id != id);
   };
+
   // Get 6 random games
   const randomGames = shuffleArray(games).slice(0, 3);
 
@@ -29,7 +29,7 @@ export const SuggestedGames = ({ id }) => {
       <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
         {randomGames.map((game) => (
           <Link
-            to={`/details/game-${game.id}`}
+            to={`/details/game-${game.id}/state-0`}
             key={game.id}
             className="bg-(--bgLighter) border border-white/10 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300"
           >

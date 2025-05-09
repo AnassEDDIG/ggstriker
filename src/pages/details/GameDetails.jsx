@@ -1,16 +1,24 @@
-import { FaTags } from "react-icons/fa";
-import { MdKey, MdOutlineCategory } from "react-icons/md";
-import { BsImages } from "react-icons/bs";
+import { useParams } from "react-router-dom";
 import { DownloadSection } from "./DownloadSection";
 import { GameInfos } from "./GameInfos";
-import { useParams } from "react-router-dom";
 import { games } from "../../data/Games";
 import { SuggestedGames } from "./SuggestedGames";
 import { useEffect } from "react";
+import { GameBanner } from "./GameBanner";
+import { Overview } from "./Overview";
+import { Screenshoots } from "./Screenshoots";
+
+import { FaTags } from "react-icons/fa";
+import { MdKey } from "react-icons/md";
 
 export const GameDetails = () => {
   const id = +useParams().id.split("-")[1];
-  const game = games.find((game) => game.id === id);
+  const game = games.find((game) => game.id == id);
+  let state = useParams().state.split("-")[1];
+  let locked = true;
+  if (state == 1) {
+    locked = false;
+  }
 
   useEffect(() => {
     window.scrollTo({ top: 0 });
@@ -19,14 +27,11 @@ export const GameDetails = () => {
     <div className="mt-12 w-[92%] mx-auto text-(--lightGray)">
       {/* Game Title */}
       <div className="text-center mb-12">
-        <img
-          src={game.image}
-          className="w-12 h-12 rounded-md mx-auto md:hidden"
-          alt=""
-        />
         <h1
-          className="text-4xl md:text-5xl font-bold text-(--complementaryColor) flex 
-        items-center justify-center gap-3"
+          className="text-4xl md:text-5xl flex 
+        items-center justify-center gap-3 font-bold bg-gradient-to-r
+         from-(--mainColor) via-(--complementaryColor) to-(--accentColor)
+          bg-clip-text text-transparent mainFont"
         >
           <MdKey className="text-(--accentColor)" />
           Play Now
@@ -38,23 +43,7 @@ export const GameDetails = () => {
 
       {/* Banner + Info */}
       <div className="flex flex-col md:flex-row gap-10 mb-14">
-        <div
-          className="relative shine h-60 md:w-2/3 md:h-auto overflow-hidden rounded-2xl
-         ring-2 ring-white/10 shadow-2xl group"
-        >
-          <iframe
-            width="560"
-            height="315"
-            src={`https://www.youtube.com/embed/${game.iframe_id}`}
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-            className="w-full h-full"
-          ></iframe>
-        </div>
-
+        <GameBanner game={game} />
         <GameInfos game={game} />
       </div>
 
@@ -63,42 +52,9 @@ export const GameDetails = () => {
         {/* Left Content */}
         <div className="md:w-2/3 space-y-12">
           {/* About */}
-          <div
-            className="bg-(--bgLighter)/80 backdrop-blur-md ring-2 ring-white/10 p-6 rounded-2xl
-           shadow-md hover:shadow-lg transition"
-          >
-            <h2 className="text-2xl font-semibold text-white mb-4 flex items-center gap-2">
-              <MdOutlineCategory className="text-(--secondaryColor)" />
-              Game Overview
-            </h2>
-            <p className="text-sm opacity-85 leading-relaxed">
-              {game.description}
-            </p>
-          </div>
-
+          <Overview game={game} />
           {/* Screenshots */}
-          <div className="space-y-4">
-            <h2 className="text-2xl font-semibold text-white flex items-center gap-2">
-              <BsImages className="text-(--secondaryColor)" />
-              Gameplay Screenshots
-            </h2>
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
-              {game.screenshoots.map((src, i) => (
-                <div
-                  key={i}
-                  className="overflow-hidden rounded-xl shadow-md hover:shadow-lg
-                   transition-shadow  ring-2 ring-white/10"
-                >
-                  <img
-                    src={src}
-                    alt={`Gameplay ${i + 1}`}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-
+          <Screenshoots game={game} />
           {/* Tags */}
           <div>
             <h2 className="text-2xl font-semibold  text-white mb-3 flex items-center justify-center sm:justify-start gap-2">
@@ -120,7 +76,7 @@ export const GameDetails = () => {
         </div>
 
         {/* Right Content: Download Box */}
-        <DownloadSection links={game.download_links} />
+        <DownloadSection locked={locked} links={game.download_links} />
       </div>
       <SuggestedGames id={id} />
     </div>

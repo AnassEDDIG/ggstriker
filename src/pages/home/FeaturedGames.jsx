@@ -88,7 +88,7 @@ export const FeaturedGames = () => {
               </span>
               <div className="text-center text-(--lightGray)">
                 <p className="text-xs">+{millify(game.downloads)} Downloads</p>
-                <Link to={`/details/game-${game.id}`}>
+                <Link to={`/details/game-${game.id}/state-0`}>
                   <button className="special-btn mt-2">
                     Download Now <FaDownload />
                   </button>

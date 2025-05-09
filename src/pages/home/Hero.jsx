@@ -1,13 +1,8 @@
 import { RiMedalFill } from "react-icons/ri";
 import { Button } from "../../components/common/Button";
-import { FaApple, FaAppStoreIos, FaDownload, FaGamepad } from "react-icons/fa";
-
+import { FaAppStoreIos, FaGamepad } from "react-icons/fa";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { AiFillSafetyCertificate } from "react-icons/ai";
-import { SiMediafire } from "react-icons/si";
-import { FcAndroidOs } from "react-icons/fc";
-import { BsLightningChargeFill } from "react-icons/bs";
-
 import gamepad1 from "../../assets/images/gamepad1.png";
 import gamepad2 from "../../assets/images/gamepad2.png";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
@@ -81,8 +76,7 @@ export const Hero = () => {
             const element = document.getElementById("featured-games");
             if (element) {
               const yOffset = -90; // Negative value moves the scroll up (reveals content)
-              const y =
-                element.getBoundingClientRect().top + yOffset;
+              const y = element.getBoundingClientRect().top + yOffset;
 
               window.scrollTo({ top: y, behavior: "smooth" });
             }

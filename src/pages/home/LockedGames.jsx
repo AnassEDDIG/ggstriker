@@ -19,7 +19,7 @@ export const LockedGames = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10">
         {lockedGames.map((game, index) => (
           <Link
-            to={`/details/game-${game.id}`}
+            to={`/details/game-${game.id}/state-0`}
             key={index}
             className="relative bg-(--bgLighter)  rounded-xl overflow-hidden group shadow-md
              hover:shadow-lg transition"
