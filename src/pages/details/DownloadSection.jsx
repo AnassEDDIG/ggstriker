@@ -21,17 +21,14 @@ export const DownloadSection = ({ links, locked }) => {
 
         {/* Download Buttons */}
         {locked ? (
-          <div>
-            <a
-              href="https://smrturl.co/a/sbe80163312/8940?s1="
-              className="flex items-center justify-center gap-3 bg-(--accentColor) text-(--bgColor)
+          <button
+            className="flex items-center justify-center gap-3 bg-(--accentColor) text-(--bgColor)
               font-semibold py-3 px-2 md:px-5 rounded-xl shadow-md hover:scale-105 transition-all 
               duration-300 text-sm cursor-pointer mx-auto"
-            >
-              <IoMdUnlock />
-              Complete 1 step to unlock download
-            </a>
-          </div>
+          >
+            <IoMdUnlock />
+            Complete 1 step to unlock download
+          </button>
         ) : (
           <div className="space-y-4">
             <a
