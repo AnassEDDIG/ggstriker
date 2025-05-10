@@ -21,14 +21,24 @@ export const DownloadSection = ({ links, locked }) => {
 
         {/* Download Buttons */}
         {locked ? (
-          <button
-            className="flex items-center justify-center gap-3 bg-(--accentColor) text-(--bgColor)
-              font-semibold py-3 px-2 md:px-5 rounded-xl shadow-md hover:scale-105 transition-all 
-              duration-300 text-sm cursor-pointer mx-auto"
-          >
-            <IoMdUnlock />
-            Complete 1 step to unlock download
-          </button>
+          <div>
+            <Helmet>
+              <script type="text/javascript">
+                {`    var ifvnF_AkH_Txjxoc={"it":4489636,"key":"12fe4"};`}
+              </script>
+              <script src="https://d2yc6hxtq0phup.cloudfront.net/9db68e8.js"></script>
+            </Helmet>
+
+            <button
+              className="flex items-center justify-center gap-3 bg-(--accentColor) text-(--bgColor)
+                font-semibold py-3 px-2 md:px-5 rounded-xl shadow-md hover:scale-105 transition-all 
+                duration-300 text-sm cursor-pointer mx-auto"
+              onClick={() => window._iH()}
+            >
+              <IoMdUnlock />
+              Complete 1 step to unlock download
+            </button>
+          </div>
         ) : (
           <div className="space-y-4">
             <a
