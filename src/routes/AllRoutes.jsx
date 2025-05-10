@@ -15,7 +15,6 @@ export const AllRoutes = () => {
       <Route path="/details/:id/:state" element={<GameDetails />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-
     </Routes>
   );
 };
