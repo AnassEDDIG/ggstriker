@@ -15,9 +15,9 @@ export const GameDetails = () => {
   const id = +useParams().id.split("-")[1];
   const game = games.find((game) => game.id == id);
   let state = useParams().state.split("-")[1];
-  let locked = true;
-  if (state == 1) {
-    locked = false;
+  let locked = false;
+  if (state == 0 &&  id == 3) {
+    locked = true;
   }
 
   useEffect(() => {

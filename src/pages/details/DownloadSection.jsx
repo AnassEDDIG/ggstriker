@@ -6,9 +6,15 @@ import { Helmet } from "react-helmet";
 export const DownloadSection = ({ links, locked }) => {
   return (
     <div className="md:w-1/3 space-y-8 h-fit">
-      <div className="bg-(--bgLighter)/80 backdrop-blur-md ring-2 ring-white/10 p-6 rounded-2xl shadow-2xl text-center space-y-6">
+      <div
+        className="bg-(--bgLighter)/80 backdrop-blur-md ring-2 ring-white/10 p-6 rounded-2xl 
+      shadow-2xl text-center space-y-6"
+      >
         {/* Title */}
-        <h2 className="text-2xl md:text-3xl font-bold text-(--complementaryColor) tracking-tight flex items-center gap-1 justify-center">
+        <h2
+          className="text-2xl md:text-3xl font-bold text-(--complementaryColor) tracking-tight
+         flex items-center gap-1 justify-center"
+        >
           <FaDownload />
           Download the Game
         </h2>
@@ -45,8 +51,9 @@ export const DownloadSection = ({ links, locked }) => {
               href={links.playstore}
               target="_blank"
               className="flex items-center justify-center gap-3 bg-gradient-to-r from-green-500
-             to-green-600 hover:from-green-600 hover:to-green-700 text-white text-base md:text-lg
-              font-semibold py-3 px-5 rounded-xl shadow-md hover:scale-105 transition-all duration-300"
+             to-green-600 hover:from-green-600 hover:to-green-700 text-white text-base
+              md:text-lg font-semibold py-3 px-5 rounded-xl shadow-md hover:scale-105 transition-all
+               duration-300"
             >
               <TiVendorAndroid size={24} />
               Download on Android
