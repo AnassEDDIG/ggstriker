@@ -47,15 +47,15 @@ export const games = [
     iframe_id: "Y4HSyVXKYz8?si=oZDYzZJ4zfRdXvQi",
     banner: "https://ik.imagekit.io/ggstriker/games_banners/limbo_banner.jpg",
     download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.playdead.limbo.full",
-      appstore: "https://apps.apple.com/us/app/playdeads-limbo/id656951157",
+      playstore: "https://an1.com/5730-limbo.html",
+      appstore: "https://apps.apple.com/us/app/limbo/id1618201675?uo=4",
     },
     screenshoots: [
       "https://ik.imagekit.io/ggstriker/game_screenshot/limbo_sc_1.png",
       "https://ik.imagekit.io/ggstriker/game_screenshot/limbo_sc_2.png",
       "https://ik.imagekit.io/ggstriker/game_screenshot/limbo_sc_3.png",
     ],
+    locked: true,
   },
   {
     id: 3,

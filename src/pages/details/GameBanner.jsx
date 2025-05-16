@@ -4,7 +4,7 @@ export const GameBanner = ({ game }) => {
   return (
     <div
       className="relative shine h-60 md:w-2/3 md:h-auto overflow-hidden rounded-2xl
-         ring-2 ring-white/10 shadow-2xl group duration-300 hover:brightness-110"
+         ring-2 ring-white/10 shadow-2xl group duration-300 transition-[filter] hover:brightness-110"
       style={{
         backgroundImage: `url(${game.banner})`,
         backgroundSize: "cover",

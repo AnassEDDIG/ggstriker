@@ -5,7 +5,7 @@ export const Screenshoots = ({ game }) => {
     <div className="space-y-4">
       <h2 className="text-2xl font-semibold text-white flex items-center gap-2">
         <BsImages className="text-(--secondaryColor)" />
-        Gameplay Screenshots
+        Gameplay Screenshots 
       </h2>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
         {game.screenshoots.map((src, i) => (

@@ -16,7 +16,7 @@ export const GameDetails = () => {
   const game = games.find((game) => game.id == id);
   let state = useParams().state.split("-")[1];
   let locked = false;
-  if (state == 0 &&  id == 3) {
+  if (state == 0 && game.locked == true) {
     locked = true;
   }
 
