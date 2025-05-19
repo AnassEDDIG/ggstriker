@@ -13,9 +13,9 @@
   --mainColor: #00b3a6;
   --secondaryColor: #009C82;
   --lightGray: #a6accd;
-  --accentColor: #ffbb33; /* A warm, fiery orange that contrasts well with the teal */
-  --complementaryColor: #5ec496; /* A soothing and balanced green with a bit of freshness */
-  --highlightColor: #ffbb33; /* Bright yellow to break the rhythm and grab attention without overpowering */
+  --accentColor: #ffbb33; 
+  --complementaryColor: #5ec496; 
+  --highlightColor: #ffbb33; 
 }
 
 header,
