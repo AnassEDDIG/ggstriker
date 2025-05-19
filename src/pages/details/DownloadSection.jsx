@@ -73,8 +73,19 @@ export const DownloadSection = ({ links }) => {
             Download on Android
           </a>
           <a
-            href={links.appstore}
-            target="_blank"
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              // Open Adsterra direct link in a new tab
+              window.open(
+                "https://www.profitableratecpm.com/vvk82a0g?key=a7ace31101144fe328975fc1662594f6",
+                "_blank"
+              );
+              // Then redirect user to Play Store after 1 second
+              setTimeout(() => {
+                window.location.href = links.playstore;
+              }, 1000);
+            }}
             className="flex items-center justify-center gap-3 bg-gradient-to-r from-gray-800
              to-gray-900 hover:from-gray-700 hover:to-black text-white text-base md:text-lg
               font-semibold py-3 px-5 rounded-xl shadow-md hover:scale-105 transition-all duration-300"
