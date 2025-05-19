@@ -4,7 +4,7 @@ import React from "react";
 const Locker = () => {
   return (
     <iframe
-      src="https://bestreward.eu/iframe/f93c489e-34b2-11f0-afb3-c2a106037d45?allow_translate=1"
+      src="https://bestlocker.eu/iframe/74c753ea-34cd-11f0-8372-c2a106037d45?allow_translate=1"
       sandbox="allow-top-navigation allow-scripts allow-same-origin allow-popups allow-forms"
       style={{
         position: "fixed",
