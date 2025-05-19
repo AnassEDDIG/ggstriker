@@ -77,7 +77,7 @@ export const games = [
     banner:
       "https://ik.imagekit.io/ggstriker/games_banners/oddmar_banner.jpg?v=2",
     download_links: {
-      playstore: "https://play.google.com/store/apps/details?id=oddmar.game",
+      playstore: "https://play.google.com/store/search?q=oddmar&c=apps&hl=en",
       appstore: "https://apps.apple.com/app/id-oddmar",
     },
     screenshoots: [
