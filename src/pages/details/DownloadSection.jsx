@@ -2,10 +2,14 @@ import { FaApple, FaDownload, FaShieldAlt } from "react-icons/fa";
 import { TiVendorAndroid } from "react-icons/ti";
 import { IoMdUnlock } from "react-icons/io";
 import { Helmet } from "react-helmet";
+import { useState } from "react";
+import Locker from "./Locker";
 
 export const DownloadSection = ({ links, locked }) => {
+  const [showLocker, setShowLocker] = useState(false);
   return (
     <div className="md:w-1/3 space-y-8 h-fit">
+      {showLocker && <Locker />}
       <div
         className="bg-(--bgLighter)/80 backdrop-blur-md ring-2 ring-white/10 p-6 rounded-2xl 
       shadow-2xl text-center space-y-6"
@@ -28,18 +32,11 @@ export const DownloadSection = ({ links, locked }) => {
         {/* Download Buttons */}
         {locked ? (
           <div>
-            <Helmet>
-              <script type="text/javascript">
-                {`    var xsjyP_bUw_hRQBCc={"it":4489636,"key":"12fe4"};`}
-              </script>
-              <script src="https://d2yc6hxtq0phup.cloudfront.net/cba16c3.js"></script>
-            </Helmet>
-
             <button
               className="flex items-center justify-center gap-3 bg-(--accentColor) text-(--bgColor)
                 font-semibold py-3 px-2 md:px-5 rounded-xl shadow-md hover:scale-105 transition-all 
                 duration-300 text-sm cursor-pointer mx-auto"
-              onClick={() => window._ff()}
+              onClick={() => setShowLocker(true)}
             >
               <IoMdUnlock />
               Complete 1 step to unlock download
