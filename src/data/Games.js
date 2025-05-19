@@ -55,7 +55,6 @@ export const games = [
       "https://ik.imagekit.io/ggstriker/game_screenshot/limbo_sc_2.png",
       "https://ik.imagekit.io/ggstriker/game_screenshot/limbo_sc_3.png",
     ],
-    locked: true,
   },
   {
     id: 3,
