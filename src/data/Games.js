@@ -79,6 +79,7 @@ export const games = [
       playstore: "https://play.google.com/store/search?q=oddmar&c=apps&hl=en",
       appstore: "https://apps.apple.com/us/app/oddmar/id1247397901",
       shortenLink: "https://exe.io/iKka39",
+      locker: "https://optidownloader.com/1810714",
     },
     screenshoots: [
       "https://ik.imagekit.io/ggstriker/game_screenshot/oddmar_sc_1.png",
@@ -112,6 +113,8 @@ export const games = [
         "https://play.google.com/store/apps/details?id=com.tgc.sky.android",
       appstore:
         "https://apps.apple.com/app/sky-children-of-the-light/id1462117269",
+      shortenLink: "https://exe.io/mH8Yj",
+      locker: "https://optidownloader.com/1809866",
     },
     screenshoots: [
       "https://ik.imagekit.io/ggstriker/game_screenshot/sky_sc_1.png",

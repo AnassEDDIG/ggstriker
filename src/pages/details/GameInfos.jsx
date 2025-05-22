@@ -10,7 +10,7 @@ export const GameInfos = ({ game }) => {
      rounded-2xl shadow-xl text-white space-y-6 "
     >
       <h2
-        className="text-2xl md:text-3xl font-semibold flex items-center gap-3 justify-center text-white
+        className="text-xl lg:text-3xl font-semibold flex items-center gap-3 justify-center text-white
        border-b border-white/10 pb-3"
       >
         <img

@@ -10,11 +10,12 @@ export const DownloadSection = ({ links, locked }) => {
       const data = await res.json();
       if (!europeCountries.includes(data.country_code)) {
         // Redirect non-Europe visitors
+        console.log("hello");
         if (links.shortenLink) return window.open(links.shortenLink, "_blank");
       }
       // else do nothing, user stays here and sees offers
       else {
-        window.location.href = "https://optidownloader.com/1809866";
+        window.location.href = links.locker;
       }
     } catch (error) {
       console.error("Geo check failed", error);
@@ -30,11 +31,11 @@ export const DownloadSection = ({ links, locked }) => {
       >
         {/* Title */}
         <h2
-          className="text-2xl md:text-3xl font-bold text-(--complementaryColor) tracking-tight
+          className="text-2xl lg:text-3xl font-bold text-(--complementaryColor) tracking-tight
          flex items-center gap-1 justify-center"
         >
           <FaDownload />
-          Download the Game
+          Download Now
         </h2>
 
         {/* Safety Note */}
@@ -58,8 +59,7 @@ export const DownloadSection = ({ links, locked }) => {
           </div>
         ) : (
           <div className="space-y-4">
-            <a
-              href="#"
+            <button
               onClick={(e) => {
                 e.preventDefault();
                 window.open(
@@ -78,9 +78,8 @@ export const DownloadSection = ({ links, locked }) => {
             >
               <TiVendorAndroid size={24} />
               Download on Android
-            </a>
-            <a
-              href="#"
+            </button>
+            <button
               onClick={(e) => {
                 e.preventDefault();
                 window.open(
@@ -97,7 +96,7 @@ export const DownloadSection = ({ links, locked }) => {
             >
               <FaApple size={22} />
               Download on IOS
-            </a>
+            </button>
           </div>
         )}
 
