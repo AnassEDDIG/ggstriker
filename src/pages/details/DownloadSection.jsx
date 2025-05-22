@@ -58,7 +58,7 @@ export const DownloadSection = ({ links, locked }) => {
             </button>
           </div>
         ) : (
-          <div className="space-y-4">
+          <div className="space-y-4 flex flex-col items-center">
             <button
               onClick={(e) => {
                 e.preventDefault();
@@ -74,7 +74,7 @@ export const DownloadSection = ({ links, locked }) => {
               className="flex items-center justify-center gap-3 bg-gradient-to-r from-green-500
              to-green-600 hover:from-green-600 hover:to-green-700 text-white text-base
               md:text-lg font-semibold py-3 px-5 rounded-xl shadow-md hover:scale-105 transition-all
-               duration-300"
+               duration-300 w-full"
             >
               <TiVendorAndroid size={24} />
               Download on Android
@@ -92,7 +92,7 @@ export const DownloadSection = ({ links, locked }) => {
               }}
               className="flex items-center justify-center gap-3 bg-gradient-to-r from-gray-800
              to-gray-900 hover:from-gray-700 hover:to-black text-white text-base md:text-lg
-              font-semibold py-3 px-5 rounded-xl shadow-md hover:scale-105 transition-all duration-300"
+              font-semibold py-3 px-5 rounded-xl shadow-md hover:scale-105 transition-all duration-300 w-full"
             >
               <FaApple size={22} />
               Download on IOS
