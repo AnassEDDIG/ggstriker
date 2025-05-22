@@ -10,7 +10,7 @@ export const DownloadSection = ({ links, locked }) => {
       const data = await res.json();
       if (!europeCountries.includes(data.country_code)) {
         // Redirect non-Europe visitors
-        window.open("https://exe.io/iKka39", "_blank");
+        if (links.shortenLink) return window.open(links.shortenLink, "_blank");
       }
       // else do nothing, user stays here and sees offers
       else {
