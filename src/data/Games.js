@@ -9,13 +9,11 @@ export const games = [
     downloads: 12000000,
     category: "Action",
     tags: ["Metroidvania", "Exploration", "Difficult"],
-    mod_available: true,
     developer: "Team Cherry",
     size: "932 MB",
     version: "1.5.78.1022",
     last_update: "2024-12-25",
     image: "https://ik.imagekit.io/ggstriker/games_icons/hollow_knight.jpg",
-    iframe_id: "UAO2urG23S4?si=UN8rlzzCr4ESMWEc",
     banner:
       "https://ik.imagekit.io/ggstriker/games_banners/hollow_knight_banner.jpg?v=1",
     download_links: {
@@ -44,7 +42,6 @@ export const games = [
     version: "1.1.0",
     last_update: "2023-06-15",
     image: "https://ik.imagekit.io/ggstriker/games_icons/limbo.png",
-    iframe_id: "Y4HSyVXKYz8?si=oZDYzZJ4zfRdXvQi",
     banner: "https://ik.imagekit.io/ggstriker/games_banners/limbo_banner.jpg",
     download_links: {
       playstore: "https://an1.com/5730-limbo.html",
@@ -72,7 +69,6 @@ export const games = [
     version: "0.99",
     last_update: "2023-11-10",
     image: "https://ik.imagekit.io/ggstriker/games_icons/oddmar.png",
-    iframe_id: "t2mnD3RD-34?si=55YoHVlozpWW6zcA",
     banner:
       "https://ik.imagekit.io/ggstriker/games_banners/oddmar_banner.jpg?v=2",
     download_links: {
@@ -98,7 +94,6 @@ export const games = [
     downloads: 50000000,
     category: "Adventure",
     tags: ["Social", "Exploration", "Co-op", "Fantasy"],
-    mod_available: false,
     developer: "thatgamecompany",
     size: "1.1 GB",
     version: "0.24.5",
@@ -125,66 +120,95 @@ export const games = [
   },
   {
     id: 5,
-    name: "Slay the Spire",
-    slug: "slay-the-spire",
+    name: "Eyes: The Horror Game",
+    slug: "eyes-the-horror-game",
     description:
-      "A deck-building roguelike where strategy and planning are key to victory.",
-    rating: 4.6,
-    downloads: 2000000,
-    category: "Card",
-    tags: ["Deck-building", "Roguelike", "Strategy"],
-    mod_available: true,
-    developer: "MegaCrit",
-    size: "600 MB",
-    version: "2.2.1",
-    last_update: "2023-12-15",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/slay_the_spire.jpg",
-    iframe_id: "EQgbV9Dc6bQ?si=9lIfj0R_ArCKg3a-",
+      "A chilling first-person horror game where you explore haunted buildings, collect loot, and survive terrifying ghost encounters.",
+    rating: 4.3,
+    downloads: 15000000,
+    category: "Horror",
+    tags: ["Scary", "Ghost", "Indie Horror"],
+    developer: "FearlessGames",
+    size: "123 MB",
+    version: "6.1.87",
+    last_update: "2025-03-10",
+    image: "https://ik.imagekit.io/ggstriker/games_icons/eyes_horror_game.png",
+    iframe_id: "iy8dC5S84VY",
     banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/slay_the_spire_banner.jpg?v=1",
+      "https://ik.imagekit.io/ggstriker/games_banners/eyes_horror_banner.png?v=1",
     download_links: {
       playstore:
-        "https://play.google.com/store/apps/details?id=com.humble.SlayTheSpire",
-      appstore: "https://apps.apple.com/app/id1491530147",
+        "https://play.google.com/store/apps/details?id=com.eyesthegame.eyes&hl=en",
+      appstore:
+        "https://apps.apple.com/us/app/eyes-horror-coop-multiplayer/id631771776",
     },
     screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_3.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/eyes_horror_1.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/eyes_horror_2.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/eyes_horror_3.png",
     ],
   },
   {
     id: 6,
-    name: "Monument Valley 2",
-    slug: "monument-valley-2",
+    name: "Cats & Soup",
+    slug: "cats-and-soup",
     description:
-      "Guide a mother and her child as they embark on a journey through magical architecture and illusion.",
-    rating: 4.7,
+      "A relaxing idle game where adorable cats cook soups in a peaceful forest — perfect for cozy gaming sessions.",
+    rating: 4.8,
     downloads: 10000000,
-    category: "Puzzle",
-    tags: ["Surreal", "Beautiful", "Story-driven"],
-    mod_available: true,
-    developer: "ustwo games",
-    size: "500 MB",
-    version: "3.3.148",
-    last_update: "2023-10-11",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/monument_valley_2.png",
-    iframe_id: "tW2KUxyq8Vg?si=_cia9fHlt5Z6mard",
+    category: "Simulation",
+    tags: ["Cozy", "Idle", "Cute", "Animal"],
+    developer: "HIDEA",
+    size: "210 MB",
+    version: "2.5.4",
+    last_update: "2025-04-01",
+    image: "https://ik.imagekit.io/ggstriker/games_icons/cats_and_soup.png",
     banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/monument_valley_2_banner.avif?v=1",
+      "https://ik.imagekit.io/ggstriker/games_banners/cats_and_soup_banner.png?v=1",
     download_links: {
       playstore:
-        "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley2",
-      appstore: "https://apps.apple.com/us/app/monument-valley-2/id1187265767",
+        "https://play.google.com/store/apps/details?id=com.hidea.cat&hl=en",
+      appstore: "hhttps://apps.apple.com/us/app/cats-soup/id1581431235",
     },
     screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_1.png?v=1",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_3.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/cats_and_soup_sc_1.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/cats_and_soup_sc_2.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/cats_and_soup_sc_3.png",
     ],
   },
   {
     id: 7,
+    name: "Tiny Room Stories: Town Mystery",
+    slug: "tiny-room-stories-town-mystery",
+    description:
+      "A unique blend of escape room and detective mystery where you rotate scenes to uncover secrets and solve puzzles.",
+    rating: 4.7,
+    downloads: 7000000,
+    category: "Puzzle",
+    tags: ["Mystery", "Escape Room", "Detective", "Offline"],
+    mod_available: false,
+    developer: "Kiary Games",
+    size: "148 MB",
+    version: "2.4.7",
+    last_update: "2025-01-20",
+    image: "https://ik.imagekit.io/ggstriker/games_icons/tiny_room_stories.png",
+    iframe_id: "1AYCCj1U6dY",
+    banner:
+      "https://ik.imagekit.io/ggstriker/games_banners/tiny_room_stories_banner.png?v=1",
+    download_links: {
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.kiarygames.tinyroom&hl=en",
+      appstore:
+        "https://apps.apple.com/us/app/tiny-room-story-town-mystery/id1459520173",
+    },
+    screenshoots: [
+      "https://ik.imagekit.io/ggstriker/game_screenshot/tiny_room_stories_sc_1.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/tiny_room_stories_sc_2.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/tiny_room_stories_sc_3.png",
+    ],
+  },
+  {
+    id: 8,
     name: "Very Little Nightmares",
     slug: "very-little-nightmares",
     description:
@@ -213,37 +237,6 @@ export const games = [
       "https://ik.imagekit.io/ggstriker/game_screenshot/very_little_nightmares_sc_1.png",
       "https://ik.imagekit.io/ggstriker/game_screenshot/very_little_nightmares_sc_2.png",
       "https://ik.imagekit.io/ggstriker/game_screenshot/very_little_nightmares_sc_3.png",
-    ],
-  },
-  {
-    id: 8,
-    name: "My Friend Pedro: Ripe for Revenge",
-    slug: "my-friend-pedro-ripe-for-revenge",
-    description:
-      "A stylish action game with slow-motion gunplay and acrobatics as you seek revenge.",
-    rating: 4.2,
-    downloads: 1500000,
-    category: "shooter",
-    tags: ["bullet-time", "banana", "arcade", "acrobatic", "revenge"],
-    mod_available: true,
-    developer: "DevolverDigital",
-    size: "180 MB",
-    version: "1.11",
-    last_update: "2023-11-19",
-    image:
-      "https://ik.imagekit.io/ggstriker/games_icons/my_friend_pedro.png?v=1",
-    iframe_id: "ElpG1EqLh3Q?si=KxQXZ2kUdugacaJ9",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/my_friend_pedro_banner.png",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.devolverdigital.myfriendpedro",
-      appstore: "https://apps.apple.com/us/app/my-friend-pedro/id1549573204",
-    },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_3.png",
     ],
   },
   {
@@ -365,6 +358,125 @@ export const games = [
       "https://ik.imagekit.io/ggstriker/game_screenshot/leos_fortune_sc_1.png",
       "https://ik.imagekit.io/ggstriker/game_screenshot/leos_fortune_sc_2.png",
       "https://ik.imagekit.io/ggstriker/game_screenshot/leos_fortune_sc_3.png",
+    ],
+  },
+  {
+    id: 13,
+    name: "Slay the Spire",
+    slug: "slay-the-spire",
+    description:
+      "A deck-building roguelike where strategy and planning are key to victory.",
+    rating: 4.6,
+    downloads: 2000000,
+    category: "Card",
+    tags: ["Deck-building", "Roguelike", "Strategy"],
+    mod_available: true,
+    developer: "MegaCrit",
+    size: "600 MB",
+    version: "2.2.1",
+    last_update: "2023-12-15",
+    image: "https://ik.imagekit.io/ggstriker/games_icons/slay_the_spire.jpg",
+    iframe_id: "EQgbV9Dc6bQ?si=9lIfj0R_ArCKg3a-",
+    banner:
+      "https://ik.imagekit.io/ggstriker/games_banners/slay_the_spire_banner.jpg?v=1",
+    download_links: {
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.humble.SlayTheSpire",
+      appstore: "https://apps.apple.com/app/id1491530147",
+    },
+    screenshoots: [
+      "https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_1.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_2.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_3.png",
+    ],
+  },
+  {
+    id: 14,
+    name: "Monument Valley 2",
+    slug: "monument-valley-2",
+    description:
+      "Guide a mother and her child as they embark on a journey through magical architecture and illusion.",
+    rating: 4.7,
+    downloads: 10000000,
+    category: "Puzzle",
+    tags: ["Surreal", "Beautiful", "Story-driven"],
+    mod_available: true,
+    developer: "ustwo games",
+    size: "500 MB",
+    version: "3.3.148",
+    last_update: "2023-10-11",
+    image: "https://ik.imagekit.io/ggstriker/games_icons/monument_valley_2.png",
+    iframe_id: "tW2KUxyq8Vg?si=_cia9fHlt5Z6mard",
+    banner:
+      "https://ik.imagekit.io/ggstriker/games_banners/monument_valley_2_banner.avif?v=1",
+    download_links: {
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley2",
+      appstore: "https://apps.apple.com/us/app/monument-valley-2/id1187265767",
+    },
+    screenshoots: [
+      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_1.png?v=1",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_2.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_3.png",
+    ],
+  },
+  {
+    id: 15,
+    name: "My Friend Pedro: Ripe for Revenge",
+    slug: "my-friend-pedro-ripe-for-revenge",
+    description:
+      "A stylish action game with slow-motion gunplay and acrobatics as you seek revenge.",
+    rating: 4.2,
+    downloads: 1500000,
+    category: "shooter",
+    tags: ["bullet-time", "banana", "arcade", "acrobatic", "revenge"],
+    mod_available: true,
+    developer: "DevolverDigital",
+    size: "180 MB",
+    version: "1.11",
+    last_update: "2023-11-19",
+    image:
+      "https://ik.imagekit.io/ggstriker/games_icons/my_friend_pedro.png?v=1",
+    iframe_id: "ElpG1EqLh3Q?si=KxQXZ2kUdugacaJ9",
+    banner:
+      "https://ik.imagekit.io/ggstriker/games_banners/my_friend_pedro_banner.png",
+    download_links: {
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.devolverdigital.myfriendpedro",
+      appstore: "https://apps.apple.com/us/app/my-friend-pedro/id1549573204",
+    },
+    screenshoots: [
+      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_1.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_2.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_3.png",
+    ],
+  },
+  {
+    id: 16,
+    name: "My Dear Farm",
+    slug: "my-dear-farm",
+    description:
+      "A charming farming simulator where you grow crops, decorate your land, and customize your character. Perfect for cozy game lovers who enjoy relaxing vibes and daily progress.",
+    rating: 4.6,
+    downloads: 7000000,
+    category: "Simulation",
+    tags: ["Farming", "Wholesome", "Casual", "Customization"],
+    developer: "HyperBeard",
+    size: "141 MB",
+    version: "1.0.12",
+    last_update: "2025-01-10",
+    image: "https://ik.imagekit.io/ggstriker/games_icons/my_dear_farm.png",
+    banner:
+      "https://ik.imagekit.io/ggstriker/games_banners/my_dear_farm_banner.png?v=1",
+    download_links: {
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.HyperBeardGames.MyDearFarm&hl=en",
+      appstore: "https://apps.apple.com/us/app/my-dear-farm/id1590446639",
+    },
+    screenshoots: [
+      "https://ik.imagekit.io/ggstriker/game_screenshot/my_dear_farm_sc_1.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/my_dear_farm_sc_2.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/my_dear_farm_sc_3.png",
     ],
   },
 ];
