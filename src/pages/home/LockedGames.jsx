@@ -39,7 +39,7 @@ export const LockedGames = () => {
                 <FaLock />
                 Locked
               </span>
-              <Link Link to={`/details/game-${game.id}`}>
+              <Link Link to={`/details/game-${game.id}/state-0`}>
                 <button
                   className="mt-2 bg-(--mainColor) text-black px-3 py-2 rounded
                  text-sm font-semibold cursor-pointer"
