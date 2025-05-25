@@ -1,104 +1,5 @@
 export const lockedGames = [
   {
-    id: 7,
-    name: "Very Little Nightmares",
-    slug: "very-little-nightmares",
-    description:
-      "A horror puzzle adventure game that serves as a prequel to Little Nightmares.",
-    rating: 4.4,
-    downloads: 1200000,
-    category: "horror",
-    tags: ["creepy", "puzzle", "atmosphere", "prequel", "escape"],
-    mod_available: true,
-    developer: "Bandai Namco",
-    size: "500 MB",
-    version: "1.2.3",
-    last_update: "2023-05-10",
-    image:
-      "https://ik.imagekit.io/ggstriker/games_icons/very_little_nightmares.png",
-    iframe_id: "M9UyaeNsX-o?si=jDMnyDiltulyRPoR",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/very_little_nightmares_banner.png",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=eu.bandainamcoent.verylittlenightmares",
-      appstore:
-        "https://apps.apple.com/us/app/very-little-nightmares/id1435140819",
-    },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/very_little_nightmares_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/very_little_nightmares_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/very_little_nightmares_sc_3.png",
-    ],
-  },
-  {
-    id: 8,
-    name: "My Friend Pedro: Ripe for Revenge",
-    slug: "my-friend-pedro-ripe-for-revenge",
-    description:
-      "A stylish action game with slow-motion gunplay and acrobatics as you seek revenge.",
-    rating: 4.2,
-    downloads: 1500000,
-    category: "shooter",
-    tags: ["bullet-time", "banana", "arcade", "acrobatic", "revenge"],
-    mod_available: true,
-    developer: "DevolverDigital",
-    size: "180 MB",
-    version: "1.11",
-    last_update: "2023-11-19",
-    image:
-      "https://ik.imagekit.io/ggstriker/games_icons/my_friend_pedro.png?v=1",
-    iframe_id: "ElpG1EqLh3Q?si=KxQXZ2kUdugacaJ9",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/my_friend_pedro_banner.png",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.devolverdigital.myfriendpedro",
-      appstore: "https://apps.apple.com/us/app/my-friend-pedro/id1549573204",
-    },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_3.png",
-    ],
-  },
-  {
-    id: 9,
-    name: "Samsara Room",
-    slug: "samsara-room",
-    description:
-      "A surreal escape room game where you uncover secrets and solve mind-bending puzzles.",
-    rating: 4.3,
-    downloads: 800000,
-    category: "mystery",
-    tags: [
-      "escape-room",
-      "surreal",
-      "point-and-click",
-      "mind-bending",
-      "creepy",
-    ],
-    mod_available: false,
-    developer: "Rusty Lake",
-    size: "120 MB",
-    version: "1.0.50",
-    last_update: "2023-07-03",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/samsara_room.png",
-    iframe_id: "QqZT4JeDZMk?si=lS3EcwlW9S0ur6ll",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/samsara_room_banner.png",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=air.com.RustyLake.SamsaraRoom",
-      appstore: "https://apps.apple.com/us/app/samsara-room/id1504447910",
-    },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/samasara_room_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/samasara_room_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/samasara_room_sc_3.png",
-    ],
-  },
-  {
     id: 10,
     name: "BADLAND",
     slug: "badland",
@@ -186,6 +87,97 @@ export const lockedGames = [
       "https://ik.imagekit.io/ggstriker/game_screenshot/leos_fortune_sc_1.png",
       "https://ik.imagekit.io/ggstriker/game_screenshot/leos_fortune_sc_2.png",
       "https://ik.imagekit.io/ggstriker/game_screenshot/leos_fortune_sc_3.png",
+    ],
+  },
+  {
+    id: 13,
+    name: "Slay the Spire",
+    slug: "slay-the-spire",
+    description:
+      "A deck-building roguelike where strategy and planning are key to victory.",
+    rating: 4.6,
+    downloads: 2000000,
+    category: "Card",
+    tags: ["Deck-building", "Roguelike", "Strategy"],
+    mod_available: true,
+    developer: "MegaCrit",
+    size: "600 MB",
+    version: "2.2.1",
+    last_update: "2023-12-15",
+    image: "https://ik.imagekit.io/ggstriker/games_icons/slay_the_spire.jpg",
+    iframe_id: "EQgbV9Dc6bQ?si=9lIfj0R_ArCKg3a-",
+    banner:
+      "https://ik.imagekit.io/ggstriker/games_banners/slay_the_spire_banner.jpg?v=1",
+    download_links: {
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.humble.SlayTheSpire",
+      appstore: "https://apps.apple.com/app/id1491530147",
+    },
+    screenshoots: [
+      "https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_1.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_2.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_3.png",
+    ],
+  },
+  {
+    id: 14,
+    name: "Monument Valley 2",
+    slug: "monument-valley-2",
+    description:
+      "Guide a mother and her child as they embark on a journey through magical architecture and illusion.",
+    rating: 4.7,
+    downloads: 10000000,
+    category: "Puzzle",
+    tags: ["Surreal", "Beautiful", "Story-driven"],
+    mod_available: true,
+    developer: "ustwo games",
+    size: "500 MB",
+    version: "3.3.148",
+    last_update: "2023-10-11",
+    image: "https://ik.imagekit.io/ggstriker/games_icons/monument_valley_2.png",
+    iframe_id: "tW2KUxyq8Vg?si=_cia9fHlt5Z6mard",
+    banner:
+      "https://ik.imagekit.io/ggstriker/games_banners/monument_valley_2_banner.avif?v=1",
+    download_links: {
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley2",
+      appstore: "https://apps.apple.com/us/app/monument-valley-2/id1187265767",
+    },
+    screenshoots: [
+      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_1.png?v=1",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_2.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_3.png",
+    ],
+  },
+  {
+    id: 15,
+    name: "My Friend Pedro: Ripe for Revenge",
+    slug: "my-friend-pedro-ripe-for-revenge",
+    description:
+      "A stylish action game with slow-motion gunplay and acrobatics as you seek revenge.",
+    rating: 4.2,
+    downloads: 1500000,
+    category: "shooter",
+    tags: ["bullet-time", "banana", "arcade", "acrobatic", "revenge"],
+    mod_available: true,
+    developer: "DevolverDigital",
+    size: "180 MB",
+    version: "1.11",
+    last_update: "2023-11-19",
+    image:
+      "https://ik.imagekit.io/ggstriker/games_icons/my_friend_pedro.png?v=1",
+    iframe_id: "ElpG1EqLh3Q?si=KxQXZ2kUdugacaJ9",
+    banner:
+      "https://ik.imagekit.io/ggstriker/games_banners/my_friend_pedro_banner.png",
+    download_links: {
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.devolverdigital.myfriendpedro",
+      appstore: "https://apps.apple.com/us/app/my-friend-pedro/id1549573204",
+    },
+    screenshoots: [
+      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_1.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_2.png",
+      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_3.png",
     ],
   },
 ];
