@@ -1,512 +1,523 @@
 export const games = [
-  {
-    id: 1,
-    name: "Hollow Knight",
-    slug: "hollow-knight",
-    description:
-      "A challenging 2D action-adventure game set in a vast, ruined kingdom of insects and heroes.",
-    rating: 4.5,
-    downloads: 12000000,
-    category: "Action",
-    tags: ["Metroidvania", "Exploration", "Difficult"],
-    developer: "Team Cherry",
-    size: "932 MB",
-    version: "1.5.78.1022",
-    last_update: "2024-12-25",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/hollow_knight.jpg",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/hollow_knight_banner.jpg?v=1",
-    download_links: {
-      playstore: "https://hollowknightapk.com/download-apk-file-free/",
-      appstore: "https://hollowknightapk.com/hollow-knight-for-ios/",
+    {
+        id: 1,
+        name: 'Hollow Knight',
+        slug: 'hollow-knight',
+        description:
+            'A challenging 2D action-adventure game set in a vast, ruined kingdom of insects and heroes.',
+        rating: 4.5,
+        downloads: 12000000,
+        category: 'Action',
+        tags: ['Metroidvania', 'Exploration', 'Difficult'],
+        developer: 'Team Cherry',
+        size: '932 MB',
+        version: '1.5.78.1022',
+        last_update: '2024-12-25',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/hollow_knight.jpg',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/hollow_knight_banner.jpg?v=1',
+        download_links: {
+            playstore: 'https://hollowknightapk.com/download-apk-file-free/',
+            appstore: 'https://hollowknightapk.com/hollow-knight-for-ios/',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/hollow_knight_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/hollow_knight_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/hollow_knight_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/hollow_knight_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/hollow_knight_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/hollow_knight_sc_3.png",
-    ],
-  },
-  {
-    id: 2,
-    name: "Prince of Persia: The Lost Crown",
-    slug: "prince-of-persia-the-lost-crown",
-    description:
-      "An action-packed side-scrolling adventure where you step into the boots of a warrior in a mythical Persian world, battling through time to rescue the kingdom.",
-    rating: 4.6,
-    downloads: 4200000,
-    category: "Action",
-    tags: ["Platformer", "Combat", "Adventure", "Mythical"],
-    mod_available: false,
-    developer: "Ubisoft",
-    size: "1.3 GB",
-    version: "1.0.5",
-    last_update: "2024-05-10",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/prince_of_percia.png",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/prince_of_percia_banner.png",
-    download_links: {
-      playstore:
-        "https://link-center.net/1354148/cMkO8jt4BgHz",
-      appstore:
-        "https://link-target.net/1354148/tMKAk1462lTI",
+    {
+        id: 2,
+        name: 'Prince of Persia: The Lost Crown',
+        slug: 'prince-of-persia-the-lost-crown',
+        description:
+            'An action-packed side-scrolling adventure where you step into the boots of a warrior in a mythical Persian world, battling through time to rescue the kingdom.',
+        rating: 4.6,
+        downloads: 4200000,
+        category: 'Action',
+        tags: ['Platformer', 'Combat', 'Adventure', 'Mythical'],
+        mod_available: false,
+        developer: 'Ubisoft',
+        size: '1.3 GB',
+        version: '1.0.5',
+        last_update: '2024-05-10',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/prince_of_percia.png',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/prince_of_percia_banner.png',
+        download_links: {
+            playstore: 'https://link-center.net/1354148/cMkO8jt4BgHz',
+            appstore: 'https://link-target.net/1354148/tMKAk1462lTI',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/prince_of_percia_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/prince_of_percia_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/prince_of_percia_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/prince_of_percia_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/prince_of_percia_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/prince_of_percia_sc_3.png",
-    ],
-  },
-  {
-    id: 3,
-    name: "Oddmar",
-    slug: "oddmar",
-    description:
-      "A Viking-themed platformer with beautiful hand-drawn visuals and engaging gameplay.",
-    rating: 4.5,
-    downloads: 1000000,
-    category: "Platformer",
-    tags: ["Viking", "Adventure", "Beautiful"],
-    mod_available: true,
-    developer: "Mobge Ltd.",
-    size: "500 MB",
-    version: "0.99",
-    last_update: "2023-11-10",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/oddmar.png",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/oddmar_banner.jpg?v=2",
-    download_links: {
-      playstore: "https://play.google.com/store/search?q=oddmar&c=apps&hl=en",
-      appstore: "https://apps.apple.com/us/app/oddmar/id1247397901",
-      shortenLink: "https://exe.io/iKka39",
-      locker: "https://optidownloader.com/1810714",
+    {
+        id: 3,
+        name: 'Oddmar',
+        slug: 'oddmar',
+        description:
+            'A Viking-themed platformer with beautiful hand-drawn visuals and engaging gameplay.',
+        rating: 4.5,
+        downloads: 1000000,
+        category: 'Platformer',
+        tags: ['Viking', 'Adventure', 'Beautiful'],
+        mod_available: true,
+        developer: 'Mobge Ltd.',
+        size: '500 MB',
+        version: '0.99',
+        last_update: '2023-11-10',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/oddmar.png',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/oddmar_banner.jpg?v=2',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/search?q=oddmar&c=apps&hl=en',
+            appstore: 'https://apps.apple.com/us/app/oddmar/id1247397901',
+            shortenLink: 'https://exe.io/iKka39',
+            locker: 'https://optidownloader.com/1810714',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/oddmar_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/oddmar_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/oddmar_sc_3.png',
+        ],
+        locked: true,
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/oddmar_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/oddmar_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/oddmar_sc_3.png",
-    ],
-    locked: true,
-  },
-  {
-    id: 4,
-    name: "Children of the Sky",
-    slug: "children-of-the-sky",
-    description:
-      "A visually stunning social adventure game where players explore a magical kingdom above the clouds, forging bonds and unlocking mysteries together.",
-    rating: 4.7,
-    downloads: 50000000,
-    category: "Adventure",
-    tags: ["Social", "Exploration", "Co-op", "Fantasy"],
-    developer: "thatgamecompany",
-    size: "1.1 GB",
-    version: "0.24.5",
-    last_update: "2024-12-19",
-    image:
-      "https://ik.imagekit.io/ggstriker/games_icons/children_of_the_sky.png",
-    iframe_id: "RZUbjK8DWlQ?si=exampleiframeid",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/children_of_the_sky_banner.png?v=1",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.tgc.sky.android",
-      appstore:
-        "https://apps.apple.com/app/sky-children-of-the-light/id1462117269",
-      shortenLink: "https://exe.io/mH8Yj",
-      locker: "https://optidownloader.com/1809866",
+    {
+        id: 4,
+        name: 'Children of the Sky',
+        slug: 'children-of-the-sky',
+        description:
+            'A visually stunning social adventure game where players explore a magical kingdom above the clouds, forging bonds and unlocking mysteries together.',
+        rating: 4.7,
+        downloads: 50000000,
+        category: 'Adventure',
+        tags: ['Social', 'Exploration', 'Co-op', 'Fantasy'],
+        developer: 'thatgamecompany',
+        size: '1.1 GB',
+        version: '0.24.5',
+        last_update: '2024-12-19',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/children_of_the_sky.png',
+        iframe_id: 'RZUbjK8DWlQ?si=exampleiframeid',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/children_of_the_sky_banner.png?v=1',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=com.tgc.sky.android',
+            appstore:
+                'https://apps.apple.com/app/sky-children-of-the-light/id1462117269',
+            shortenLink: 'https://exe.io/mH8Yj',
+            locker: 'https://optidownloader.com/1809866',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/sky_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/sky_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/sky_sc_3.png',
+        ],
+        locked: true,
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/sky_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/sky_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/sky_sc_3.png",
-    ],
-    locked: true,
-  },
-  {
-    id: 5,
-    name: "Eyes: The Horror Game",
-    slug: "eyes-the-horror-game",
-    description:
-      "A chilling first-person horror game where you explore haunted buildings, collect loot, and survive terrifying ghost encounters.",
-    rating: 4.3,
-    downloads: 15000000,
-    category: "Horror",
-    tags: ["Scary", "Ghost", "Indie Horror"],
-    developer: "FearlessGames",
-    size: "123 MB",
-    version: "6.1.87",
-    last_update: "2025-03-10",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/eyes_horror_game.png",
-    iframe_id: "iy8dC5S84VY",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/eyes_horror_banner.png?v=1",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.eyesthegame.eyes&hl=en",
-      appstore:
-        "https://apps.apple.com/us/app/eyes-horror-coop-multiplayer/id631771776",
+    {
+        id: 5,
+        name: 'Eyes: The Horror Game',
+        slug: 'eyes-the-horror-game',
+        description:
+            'A chilling first-person horror game where you explore haunted buildings, collect loot, and survive terrifying ghost encounters.',
+        rating: 4.3,
+        downloads: 15000000,
+        category: 'Horror',
+        tags: ['Scary', 'Ghost', 'Indie Horror'],
+        developer: 'FearlessGames',
+        size: '123 MB',
+        version: '6.1.87',
+        last_update: '2025-03-10',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/eyes_horror_game.png',
+        iframe_id: 'iy8dC5S84VY',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/eyes_horror_banner.png?v=1',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=com.eyesthegame.eyes&hl=en',
+            appstore:
+                'https://apps.apple.com/us/app/eyes-horror-coop-multiplayer/id631771776',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/eyes_horror_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/eyes_horror_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/eyes_horror_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/eyes_horror_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/eyes_horror_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/eyes_horror_3.png",
-    ],
-  },
-  {
-    id: 6,
-    name: "Cats & Soup",
-    slug: "cats-and-soup",
-    description:
-      "A relaxing idle game where adorable cats cook soups in a peaceful forest — perfect for cozy gaming sessions.",
-    rating: 4.8,
-    downloads: 10000000,
-    category: "Simulation",
-    tags: ["Cozy", "Idle", "Cute", "Animal"],
-    developer: "HIDEA",
-    size: "210 MB",
-    version: "2.5.4",
-    last_update: "2025-04-01",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/cats_and_soup.png",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/cats_and_soup_banner.png?v=1",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.hidea.cat&hl=en",
-      appstore: "hhttps://apps.apple.com/us/app/cats-soup/id1581431235",
+    {
+        id: 6,
+        name: 'Cats & Soup',
+        slug: 'cats-and-soup',
+        description:
+            'A relaxing idle game where adorable cats cook soups in a peaceful forest — perfect for cozy gaming sessions.',
+        rating: 4.8,
+        downloads: 10000000,
+        category: 'Simulation',
+        tags: ['Cozy', 'Idle', 'Cute', 'Animal'],
+        developer: 'HIDEA',
+        size: '210 MB',
+        version: '2.5.4',
+        last_update: '2025-04-01',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/cats_and_soup.png',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/cats_and_soup_banner.png?v=1',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=com.hidea.cat&hl=en',
+            appstore: 'hhttps://apps.apple.com/us/app/cats-soup/id1581431235',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/cats_and_soup_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/cats_and_soup_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/cats_and_soup_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/cats_and_soup_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/cats_and_soup_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/cats_and_soup_sc_3.png",
-    ],
-  },
-  {
-    id: 7,
-    name: "Tiny Room Stories: Town Mystery",
-    slug: "tiny-room-stories-town-mystery",
-    description:
-      "A unique blend of escape room and detective mystery where you rotate scenes to uncover secrets and solve puzzles.",
-    rating: 4.7,
-    downloads: 7000000,
-    category: "Puzzle",
-    tags: ["Mystery", "Escape Room", "Detective", "Offline"],
-    mod_available: false,
-    developer: "Kiary Games",
-    size: "148 MB",
-    version: "2.4.7",
-    last_update: "2025-01-20",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/tiny_room_stories.png",
-    iframe_id: "1AYCCj1U6dY",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/tiny_room_stories_banner.png?v=1",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.kiarygames.tinyroom&hl=en",
-      appstore:
-        "https://apps.apple.com/us/app/tiny-room-story-town-mystery/id1459520173",
+    {
+        id: 7,
+        name: 'Tiny Room Stories: Town Mystery',
+        slug: 'tiny-room-stories-town-mystery',
+        description:
+            'A unique blend of escape room and detective mystery where you rotate scenes to uncover secrets and solve puzzles.',
+        rating: 4.7,
+        downloads: 7000000,
+        category: 'Puzzle',
+        tags: ['Mystery', 'Escape Room', 'Detective', 'Offline'],
+        mod_available: false,
+        developer: 'Kiary Games',
+        size: '148 MB',
+        version: '2.4.7',
+        last_update: '2025-01-20',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/tiny_room_stories.png',
+        iframe_id: '1AYCCj1U6dY',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/tiny_room_stories_banner.png?v=1',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=com.kiarygames.tinyroom&hl=en',
+            appstore:
+                'https://apps.apple.com/us/app/tiny-room-story-town-mystery/id1459520173',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/tiny_room_stories_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/tiny_room_stories_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/tiny_room_stories_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/tiny_room_stories_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/tiny_room_stories_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/tiny_room_stories_sc_3.png",
-    ],
-  },
-  {
-    id: 8,
-    name: "Very Little Nightmares",
-    slug: "very-little-nightmares",
-    description:
-      "A horror puzzle adventure game that serves as a prequel to Little Nightmares.",
-    rating: 4.4,
-    downloads: 1200000,
-    category: "horror",
-    tags: ["creepy", "puzzle", "atmosphere", "prequel", "escape"],
-    mod_available: true,
-    developer: "Bandai Namco",
-    size: "500 MB",
-    version: "1.2.3",
-    last_update: "2023-05-10",
-    image:
-      "https://ik.imagekit.io/ggstriker/games_icons/very_little_nightmares.png",
-    iframe_id: "M9UyaeNsX-o?si=jDMnyDiltulyRPoR",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/very_little_nightmares_banner.png",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=eu.bandainamcoent.verylittlenightmares",
-      appstore:
-        "https://apps.apple.com/us/app/very-little-nightmares/id1435140819",
+    {
+        id: 8,
+        name: 'Very Little Nightmares',
+        slug: 'very-little-nightmares',
+        description:
+            'A horror puzzle adventure game that serves as a prequel to Little Nightmares.',
+        rating: 4.4,
+        downloads: 1200000,
+        category: 'horror',
+        tags: ['creepy', 'puzzle', 'atmosphere', 'prequel', 'escape'],
+        mod_available: true,
+        developer: 'Bandai Namco',
+        size: '500 MB',
+        version: '1.2.3',
+        last_update: '2023-05-10',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/very_little_nightmares.png',
+        iframe_id: 'M9UyaeNsX-o?si=jDMnyDiltulyRPoR',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/very_little_nightmares_banner.png',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=eu.bandainamcoent.verylittlenightmares',
+            appstore:
+                'https://apps.apple.com/us/app/very-little-nightmares/id1435140819',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/very_little_nightmares_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/very_little_nightmares_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/very_little_nightmares_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/very_little_nightmares_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/very_little_nightmares_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/very_little_nightmares_sc_3.png",
-    ],
-  },
-  {
-    id: 9,
-    name: "Monument Valley",
-    slug: "monument-valley",
-    description:
-      "A surreal exploration through fantastical architecture and impossible geometry.",
-    rating: 4.5,
-    downloads: 26000000,
-    category: "Puzzle",
-    tags: ["Surreal", "Beautiful", "Relaxing"],
-    mod_available: false,
-    developer: "ustwo games",
-    size: "300 MB",
-    version: "2.7.17",
-    last_update: "2023-10-30",
-    image:
-      "https://ik.imagekit.io/ggstriker/games_icons/monument_valley.png?updatedAt=1745965242128",
-    iframe_id: "mh_4JJNULZ0?si=jubDBJ4unUM1J159",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/monument_valley_banner.png?v=1",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley",
-      appstore: "https://apps.apple.com/app/id728293409",
+    {
+        id: 9,
+        name: 'Monument Valley',
+        slug: 'monument-valley',
+        description:
+            'A surreal exploration through fantastical architecture and impossible geometry.',
+        rating: 4.5,
+        downloads: 26000000,
+        category: 'Puzzle',
+        tags: ['Surreal', 'Beautiful', 'Relaxing'],
+        mod_available: false,
+        developer: 'ustwo games',
+        size: '300 MB',
+        version: '2.7.17',
+        last_update: '2023-10-30',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/monument_valley.png?updatedAt=1745965242128',
+        iframe_id: 'mh_4JJNULZ0?si=jubDBJ4unUM1J159',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/monument_valley_banner.png?v=1',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley',
+            appstore: 'https://apps.apple.com/app/id728293409',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_sc_1.png?v=1',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_sc_1.png?v=1",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_sc_3.png",
-    ],
-  },
-  {
-    id: 10,
-    name: "BADLAND",
-    slug: "badland",
-    description:
-      "A side-scrolling action-adventure game with physics-based gameplay and beautiful atmospheric visuals.",
-    rating: 4.5,
-    downloads: 10000000,
-    category: "adventure",
-    tags: ["side-scroller", "physics", "dark", "co-op", "offline"],
-    mod_available: true,
-    developer: "Frogmind",
-    size: "200 MB",
-    version: "3.2.0.82",
-    last_update: "2024-02-02",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/badland.png",
-    iframe_id: "FjysXld6GvI?si=B-woxeKmqOKTPAjN",
-    banner: "https://ik.imagekit.io/ggstriker/games_banners/badland_banner.png",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.frogmind.badland",
-      appstore: "https://apps.apple.com/us/app/badland/id535176909",
+    {
+        id: 10,
+        name: 'BADLAND',
+        slug: 'badland',
+        description:
+            'A side-scrolling action-adventure game with physics-based gameplay and beautiful atmospheric visuals.',
+        rating: 4.5,
+        downloads: 10000000,
+        category: 'adventure',
+        tags: ['side-scroller', 'physics', 'dark', 'co-op', 'offline'],
+        mod_available: true,
+        developer: 'Frogmind',
+        size: '200 MB',
+        version: '3.2.0.82',
+        last_update: '2024-02-02',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/badland.png',
+        iframe_id: 'FjysXld6GvI?si=B-woxeKmqOKTPAjN',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/badland_banner.png',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=com.frogmind.badland',
+            appstore: 'https://apps.apple.com/us/app/badland/id535176909',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/badland_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/badland_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/badland_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/badland_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/badland_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/badland_sc_3.png",
-    ],
-  },
-  {
-    id: 11,
-    name: "Valiant Hearts: The Great War",
-    slug: "valiant-hearts",
-    description:
-      "A narrative puzzle-adventure game based on real events during World War I.",
-    rating: 4.8,
-    downloads: 1500000,
-    category: "story",
-    tags: ["war", "history", "emotional", "narrative", "puzzle"],
-    mod_available: false,
-    developer: "Ubisoft",
-    size: "800 MB",
-    version: "1.1.0",
-    last_update: "2023-11-29",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/valiant_hearts.png",
-    iframe_id: "MP8q5F6dFqQ?si=Akw4FzJBlUvGwe_b",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/valiant_hearts_banner.png?v=1",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.netflix.NGP.ValiantHearts2",
-      appstore:
-        "https://apps.apple.com/us/app/valiant-hearts-coming-home/id1639590978",
+    {
+        id: 11,
+        name: 'Valiant Hearts: The Great War',
+        slug: 'valiant-hearts',
+        description:
+            'A narrative puzzle-adventure game based on real events during World War I.',
+        rating: 4.8,
+        downloads: 1500000,
+        category: 'story',
+        tags: ['war', 'history', 'emotional', 'narrative', 'puzzle'],
+        mod_available: false,
+        developer: 'Ubisoft',
+        size: '800 MB',
+        version: '1.1.0',
+        last_update: '2023-11-29',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/valiant_hearts.png',
+        iframe_id: 'MP8q5F6dFqQ?si=Akw4FzJBlUvGwe_b',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/valiant_hearts_banner.png?v=1',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=com.netflix.NGP.ValiantHearts2',
+            appstore:
+                'https://apps.apple.com/us/app/valiant-hearts-coming-home/id1639590978',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/valiant_hearts_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/valiant_hearts_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/valiant_hearts_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/valiant_hearts_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/valiant_hearts_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/valiant_hearts_sc_3.png",
-    ],
-  },
-  {
-    id: 12,
-    name: "Leo's Fortune",
-    slug: "leos-fortune",
-    description:
-      "A beautifully animated platformer where you hunt down the thief who stole your gold.",
-    rating: 4.6,
-    downloads: 3000000,
-    category: "platformer",
-    tags: ["fluffy", "physics", "puzzle", "hand-crafted", "award-winning"],
-    mod_available: true,
-    developer: "1337 & Senri LLC",
-    size: "350 MB",
-    version: "1.0.9",
-    last_update: "2024-03-14",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/leos_fortune.jpg",
-    iframe_id: "uXX98NbdhR0?si=ANCpYdCoy6XzZJXP",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/leos_fortune_banner.jpg?updatedAt=1746106440341",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.leosfortune",
-      appstore: "https://apps.apple.com/us/app/leos-fortune/id830544402",
+    {
+        id: 12,
+        name: "Leo's Fortune",
+        slug: 'leos-fortune',
+        description:
+            'A beautifully animated platformer where you hunt down the thief who stole your gold.',
+        rating: 4.6,
+        downloads: 3000000,
+        category: 'platformer',
+        tags: ['fluffy', 'physics', 'puzzle', 'hand-crafted', 'award-winning'],
+        mod_available: true,
+        developer: '1337 & Senri LLC',
+        size: '350 MB',
+        version: '1.0.9',
+        last_update: '2024-03-14',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/leos_fortune.jpg',
+        iframe_id: 'uXX98NbdhR0?si=ANCpYdCoy6XzZJXP',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/leos_fortune_banner.jpg?updatedAt=1746106440341',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=com.leosfortune',
+            appstore: 'https://apps.apple.com/us/app/leos-fortune/id830544402',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/leos_fortune_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/leos_fortune_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/leos_fortune_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/leos_fortune_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/leos_fortune_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/leos_fortune_sc_3.png",
-    ],
-  },
-  {
-    id: 13,
-    name: "Slay the Spire",
-    slug: "slay-the-spire",
-    description:
-      "A deck-building roguelike where strategy and planning are key to victory.",
-    rating: 4.6,
-    downloads: 2000000,
-    category: "Card",
-    tags: ["Deck-building", "Roguelike", "Strategy"],
-    mod_available: true,
-    developer: "MegaCrit",
-    size: "600 MB",
-    version: "2.2.1",
-    last_update: "2023-12-15",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/slay_the_spire.jpg",
-    iframe_id: "EQgbV9Dc6bQ?si=9lIfj0R_ArCKg3a-",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/slay_the_spire_banner.jpg?v=1",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.humble.SlayTheSpire",
-      appstore: "https://apps.apple.com/app/id1491530147",
+    {
+        id: 13,
+        name: 'Slay the Spire',
+        slug: 'slay-the-spire',
+        description:
+            'A deck-building roguelike where strategy and planning are key to victory.',
+        rating: 4.6,
+        downloads: 2000000,
+        category: 'Card',
+        tags: ['Deck-building', 'Roguelike', 'Strategy'],
+        mod_available: true,
+        developer: 'MegaCrit',
+        size: '600 MB',
+        version: '2.2.1',
+        last_update: '2023-12-15',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/slay_the_spire.jpg',
+        iframe_id: 'EQgbV9Dc6bQ?si=9lIfj0R_ArCKg3a-',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/slay_the_spire_banner.jpg?v=1',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=com.humble.SlayTheSpire',
+            appstore: 'https://apps.apple.com/app/id1491530147',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/slay_the_spire_sc_3.png",
-    ],
-  },
-  {
-    id: 14,
-    name: "Monument Valley 2",
-    slug: "monument-valley-2",
-    description:
-      "Guide a mother and her child as they embark on a journey through magical architecture and illusion.",
-    rating: 4.7,
-    downloads: 10000000,
-    category: "Puzzle",
-    tags: ["Surreal", "Beautiful", "Story-driven"],
-    mod_available: true,
-    developer: "ustwo games",
-    size: "500 MB",
-    version: "3.3.148",
-    last_update: "2023-10-11",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/monument_valley_2.png",
-    iframe_id: "tW2KUxyq8Vg?si=_cia9fHlt5Z6mard",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/monument_valley_2_banner.avif?v=1",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley2",
-      appstore: "https://apps.apple.com/us/app/monument-valley-2/id1187265767",
+    {
+        id: 14,
+        name: 'Monument Valley 2',
+        slug: 'monument-valley-2',
+        description:
+            'Guide a mother and her child as they embark on a journey through magical architecture and illusion.',
+        rating: 4.7,
+        downloads: 10000000,
+        category: 'Puzzle',
+        tags: ['Surreal', 'Beautiful', 'Story-driven'],
+        mod_available: true,
+        developer: 'ustwo games',
+        size: '500 MB',
+        version: '3.3.148',
+        last_update: '2023-10-11',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/monument_valley_2.png',
+        iframe_id: 'tW2KUxyq8Vg?si=_cia9fHlt5Z6mard',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/monument_valley_2_banner.avif?v=1',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley2',
+            appstore:
+                'https://apps.apple.com/us/app/monument-valley-2/id1187265767',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_1.png?v=1',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_1.png?v=1",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/monument_valley_2_sc_3.png",
-    ],
-  },
-  {
-    id: 15,
-    name: "My Friend Pedro: Ripe for Revenge",
-    slug: "my-friend-pedro-ripe-for-revenge",
-    description:
-      "A stylish action game with slow-motion gunplay and acrobatics as you seek revenge.",
-    rating: 4.2,
-    downloads: 1500000,
-    category: "shooter",
-    tags: ["bullet-time", "banana", "arcade", "acrobatic", "revenge"],
-    mod_available: true,
-    developer: "DevolverDigital",
-    size: "180 MB",
-    version: "1.11",
-    last_update: "2023-11-19",
-    image:
-      "https://ik.imagekit.io/ggstriker/games_icons/my_friend_pedro.png?v=1",
-    iframe_id: "ElpG1EqLh3Q?si=KxQXZ2kUdugacaJ9",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/my_friend_pedro_banner.png",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.devolverdigital.myfriendpedro",
-      appstore: "https://apps.apple.com/us/app/my-friend-pedro/id1549573204",
+    {
+        id: 15,
+        name: 'My Friend Pedro: Ripe for Revenge',
+        slug: 'my-friend-pedro-ripe-for-revenge',
+        description:
+            'A stylish action game with slow-motion gunplay and acrobatics as you seek revenge.',
+        rating: 4.2,
+        downloads: 1500000,
+        category: 'shooter',
+        tags: ['bullet-time', 'banana', 'arcade', 'acrobatic', 'revenge'],
+        mod_available: true,
+        developer: 'DevolverDigital',
+        size: '180 MB',
+        version: '1.11',
+        last_update: '2023-11-19',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/my_friend_pedro.png?v=1',
+        iframe_id: 'ElpG1EqLh3Q?si=KxQXZ2kUdugacaJ9',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/my_friend_pedro_banner.png',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=com.devolverdigital.myfriendpedro',
+            appstore:
+                'https://apps.apple.com/us/app/my-friend-pedro/id1549573204',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/my_friend_pedro_sc_3.png",
-    ],
-  },
-  {
-    id: 16,
-    name: "My Dear Farm",
-    slug: "my-dear-farm",
-    description:
-      "A charming farming simulator where you grow crops, decorate your land, and customize your character. Perfect for cozy game lovers who enjoy relaxing vibes and daily progress.",
-    rating: 4.6,
-    downloads: 7000000,
-    category: "Simulation",
-    tags: ["Farming", "Wholesome", "Casual", "Customization"],
-    developer: "HyperBeard",
-    size: "141 MB",
-    version: "1.0.12",
-    last_update: "2025-01-10",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/my_dear_farm.png",
-    banner:
-      "https://ik.imagekit.io/ggstriker/games_banners/my_dear_farm_banner.png?v=1",
-    download_links: {
-      playstore:
-        "https://play.google.com/store/apps/details?id=com.HyperBeardGames.MyDearFarm&hl=en",
-      appstore: "https://apps.apple.com/us/app/my-dear-farm/id1590446639",
+    {
+        id: 16,
+        name: 'My Dear Farm',
+        slug: 'my-dear-farm',
+        description:
+            'A charming farming simulator where you grow crops, decorate your land, and customize your character. Perfect for cozy game lovers who enjoy relaxing vibes and daily progress.',
+        rating: 4.6,
+        downloads: 7000000,
+        category: 'Simulation',
+        tags: ['Farming', 'Wholesome', 'Casual', 'Customization'],
+        developer: 'HyperBeard',
+        size: '141 MB',
+        version: '1.0.12',
+        last_update: '2025-01-10',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/my_dear_farm.png',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/my_dear_farm_banner.png?v=1',
+        download_links: {
+            playstore:
+                'https://play.google.com/store/apps/details?id=com.HyperBeardGames.MyDearFarm&hl=en',
+            appstore: 'https://apps.apple.com/us/app/my-dear-farm/id1590446639',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/my_dear_farm_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/my_dear_farm_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/my_dear_farm_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/my_dear_farm_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/my_dear_farm_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/my_dear_farm_sc_3.png",
-    ],
-  },
-  {
-    id: 17,
-    name: "Limbo",
-    slug: "limbo",
-    description:
-      "A dark, atmospheric puzzle-platformer where a boy ventures into a haunting world in search of his sister.",
-    rating: 4.4,
-    downloads: 3100000,
-    category: "Puzzle",
-    tags: ["Atmospheric", "Indie", "Platformer"],
-    mod_available: true,
-    developer: "Playdead",
-    size: "150 MB",
-    version: "1.1.0",
-    last_update: "2023-06-15",
-    image: "https://ik.imagekit.io/ggstriker/games_icons/limbo.png",
-    banner: "https://ik.imagekit.io/ggstriker/games_banners/limbo_banner.jpg",
-    download_links: {
-      playstore: "https://an1.com/5730-limbo.html",
-      appstore: "https://apps.apple.com/us/app/limbo/id1618201675?uo=4",
+    {
+        id: 17,
+        name: 'Limbo',
+        slug: 'limbo',
+        description:
+            'A dark, atmospheric puzzle-platformer where a boy ventures into a haunting world in search of his sister.',
+        rating: 4.4,
+        downloads: 3100000,
+        category: 'Puzzle',
+        tags: ['Atmospheric', 'Indie', 'Platformer'],
+        mod_available: true,
+        developer: 'Playdead',
+        size: '150 MB',
+        version: '1.1.0',
+        last_update: '2023-06-15',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/limbo.png',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/limbo_banner.jpg',
+        download_links: {
+            playstore: 'https://an1.com/5730-limbo.html',
+            appstore: 'https://apps.apple.com/us/app/limbo/id1618201675?uo=4',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/limbo_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/limbo_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/limbo_sc_3.png',
+        ],
     },
-    screenshoots: [
-      "https://ik.imagekit.io/ggstriker/game_screenshot/limbo_sc_1.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/limbo_sc_2.png",
-      "https://ik.imagekit.io/ggstriker/game_screenshot/limbo_sc_3.png",
-    ],
-  },
+    {
+        id: 18,
+        name: 'Station Saturn',
+        slug: 'station-saturn',
+        description:
+            'A fast-paced, retro-style FPS where you battle endless waves of rogue robots in a mysterious space station.',
+        rating: 4.5,
+        downloads: 85000,
+        category: 'Action',
+        tags: ['FPS', 'Arcade', 'Sci-Fi', 'Retro'],
+        mod_available: false,
+        developer: 'Booleet',
+        size: '95 MB',
+        version: '1.0.2',
+        last_update: '2024-11-10',
+        image: 'https://ik.imagekit.io/ggstriker/games_icons/station_saturn.png',
+        banner: 'https://ik.imagekit.io/ggstriker/games_banners/station_saturn_banner.png',
+        download_links: {
+            playstore:
+                'https://link-target.net/1376788/VfWquNlcA8Ue',
+            appstore:
+                'https://link-target.net/1376788/VfWquNlcA8Ue',
+        },
+        screenshoots: [
+            'https://ik.imagekit.io/ggstriker/game_screenshot/station_saturn_sc_1.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/station_saturn_sc_2.png',
+            'https://ik.imagekit.io/ggstriker/game_screenshot/station_saturn_sc_3.png',
+        ],
+    },
 ];
